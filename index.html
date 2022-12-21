@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random anime quotes</title>
+</head>
+<body onload="createElement()">
+    <div id="container"></div>
+    <div class="cont">
+        
+        <div class="gridlist">
+            <!-- Duplicate the following div to add cards -->
+            <div class="card">
+                <div class="name">
+                    <div>
+                        <strong id="title"></strong>
+                        
+                    </div>
+                    <span id="quote"></span>
+                </div>
+                <div class="call-to-action">
+                    <div>
+                        <span id="char"></span>
+                    </div>
+                
+                </div>
+            </div>
+            
+            
+        </div>
+            <script src="./app.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+</body>
+</html>
+
+
