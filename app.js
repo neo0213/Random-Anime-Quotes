@@ -102,3 +102,7 @@ function createElement() {
     }
   }
 }
+
+function refreshPage(){
+    window.location.reload();
+} 
